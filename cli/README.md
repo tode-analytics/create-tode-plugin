@@ -51,7 +51,7 @@ The plugin runs and sends nothing. Add `TODE_API_KEY` to `.env` later (free plan
 
 ## The flattened template
 
-[kolebayev/figma-plugin-template-with-tode](https://github.com/kolebayev/figma-plugin-template-with-tode) is the React + Vite output of this generator, regenerated on every release. Use it with "Use this template" or `npx degit kolebayev/figma-plugin-template-with-tode my-plugin`.
+[tode-analytics/figma-plugin-template-with-tode](https://github.com/tode-analytics/figma-plugin-template-with-tode) is the React + Vite output of this generator, regenerated on every release. Use it with "Use this template" or `npx degit tode-analytics/figma-plugin-template-with-tode my-plugin`.
 
 ## How the generator works
 

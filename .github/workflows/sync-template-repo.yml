@@ -1,6 +1,6 @@
 name: sync-template-repo
 
-# On every release, regenerate kolebayev/figma-plugin-template-with-tode (React + Vite)
+# On every release, regenerate tode-analytics/figma-plugin-template-with-tode (React + Vite)
 # so the "Use this template" repo never drifts from the generator.
 # Needs secret TEMPLATE_REPO_TOKEN: a fine-grained PAT with contents:write on that repo.
 on:
@@ -25,7 +25,7 @@ jobs:
           TOKEN: ${{ secrets.TEMPLATE_REPO_TOKEN }}
         run: |
           set -euo pipefail
-          git clone "https://x-access-token:${TOKEN}@github.com/kolebayev/figma-plugin-template-with-tode.git" "$RUNNER_TEMP/repo"
+          git clone "https://x-access-token:${TOKEN}@github.com/tode-analytics/figma-plugin-template-with-tode.git" "$RUNNER_TEMP/repo"
           cd "$RUNNER_TEMP/repo"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
